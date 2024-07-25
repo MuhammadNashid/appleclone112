@@ -120,44 +120,44 @@ color: black;}
     color: #020303;
 }
    
-.d4{
+.dmain{
     display: grid;
     grid-template-columns: auto auto;
     background-color:white;
 }
-.sub1>img{
+.d1>img{
     height: 800px;
     width: 100%;
 }
  
- .d5{
+ .maindiv2{
     display: grid;
     grid-template-columns: auto auto;
     background-color: rgb(241, 239, 235);
 }
-.sub3>img{
+.sbmain>img{
     height: 800px;
     width: 920px;
 }
-.sub4>img{
+.maindiv3>img{
     height: 800px;
     width: 960px;
 }
-.ds3{
+.s2{
     position: absolute;
     left: 300px;
     top: 2500px;
     color: white;
     font-size: 28px;
 }
-.ds4{
+.s3{
     position: absolute;
     left: 1200px;
     top: 2500px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 28px;
 }
-.b6{
+.btn6{
     display: inline-block;
     padding: 10px 9px;
     font-size: 15px;
@@ -165,13 +165,13 @@ color: black;}
     text-align: center;
     text-decoration: none;
     outline: none;
-    color:rgb(227, 230, 235);
+    color:rgb(200, 205, 214);
     background-color: #2997ff;
     border:1px solid rgb(17, 93, 206);
     border-radius: 18px;   
 }
 
-.b7{
+.btn7{
     display: inline-block;
   padding: 10px 9px;
   font-size: 15px;
@@ -184,11 +184,11 @@ color: black;}
   border:1px solid rgb(17, 93, 206);
   border-radius: 15px;
 }
-  .b7:hover{
+  .btn7:hover{
      background-color:lightblue;
     }
 
-    .b8{
+    .btn8{
         display: inline-block;
         padding: 10px 9px;
         font-size: 15px;
@@ -202,7 +202,7 @@ color: black;}
         border-radius: 18px;   
     }
 
-    .b9{
+    .btn9{
         display: inline-block;
       padding: 10px 9px;
       font-size: 15px;
@@ -215,33 +215,33 @@ color: black;}
       border:1px solid rgb(17, 93, 206);
       border-radius: 17px;
     }
-      .b9:hover{
+      .btn9:hover{
          background-color:lightblue;
         }
 
 
 
-.d6{
+.maindiv4{
     display: grid;
     grid-template-columns: auto auto;
     background-color: rgb(241, 239, 235);
 }
-.sub5>img{
+.sbmain1>img{
     height: 800px;
     width: 920px;
 }
-.sub6>img{
+.maindiv5>img{
     height: 800px;
     width: 960px;
 }
-.ds5{
+.s4{
     position: absolute;
     left: 300px;
     top: 3260px;
-    color: rgb(7, 5, 5);
+    color: white;
     font-size: 28px;
 }
-.ds6{
+.s5{
     position: absolute;
     left: 1200px;
     top: 3260px;
@@ -249,7 +249,7 @@ color: black;}
     font-size: 28px;
 }
 
-.b10{
+.btn10{
     display: inline-block;
     padding: 10px 9px;
     font-size: 15px;
@@ -262,7 +262,7 @@ color: black;}
     border:1px solid rgb(0, 0, 0);
     border-radius: 18px;   
 }
-.b11{
+.btn11{
     display: inline-block;
   padding: 10px 9px;
   font-size: 15px;
@@ -275,10 +275,10 @@ color: black;}
   border:1px solid rgb(5, 6, 7);
   border-radius: 17px;
 }
-.b11:hover{
+.btn11:hover{
     background-color:lightslategray;
 }
-.b12{
+.btn12{
     display: inline-block;
     padding: 10px 9px;
     font-size: 15px;
@@ -294,13 +294,13 @@ color: black;}
 
     
 
-.d7{
+.maindiv6{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
     background-color: rgb(241, 239, 235);
     overflow-x: scroll;
 }
-.sub7>img{
+.sbmain2>img{
     height: 850px;
     width: 1200px; 
 }
@@ -341,12 +341,12 @@ color: black;}
     width: 1200px;
     }
 
-.d8{
+.maindiv7{
     background-color: antiquewhite;
     padding: 8px;
     height: 700px;
 }
-.y2{
+.cnt1{
     text-align: center;
     font-size: small;
     color: rgb(37, 36, 36);
