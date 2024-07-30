@@ -1,4 +1,4 @@
-ul{
+.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,8 +6,9 @@ ul{
     background-color: rgb(71, 67, 67);
     display: flex;
     justify-content: center;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    opacity: 0.6;
 
 }
 li{
@@ -47,31 +48,33 @@ img{
 }
 .b1{
     display: inline-block;
-  padding: 10px 10px;
-  font-size: 19px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color:white;
-  background-color: #2997ff;
-  border: none;
-  border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:white;
+    background-color: #2997ff;
+    border: none;
+    border-radius: 20px;
+   
 }
 .b2{
     display: inline-block;
-  padding: 10px 9px;
-  font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color:rgb(36, 129, 235);
-  background-color: #01060a;
-  border:1px solid rgb(17, 93, 206);
-  border-radius: 15px;
+    padding: 10px 9px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:dodgerblue;
+    background-color: #01060a;
+    border:1px solid dodgerblue;
+    border-radius: 15px;
+   
 }
-.b2:hover{ background-color:#5799d6;
+.b2:hover{ background-color:dodgerblue;
 color: black;}
 
 
